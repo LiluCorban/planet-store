@@ -1,0 +1,63 @@
+.planet-card {
+    display: flex;
+    flex-direction: column;
+   font-family: "Bookman Old Style", sans-serif;
+    padding: 5px;
+    margin: 1%;
+    background-color: white;
+    width: 30%;
+    box-sizing: border-box;
+    position: relative;
+    transition: 1s;
+
+}
+.planet-card div.description{
+    width: 95%;
+    display: none;
+    position: absolute;
+    transition: 1s;
+    top:9%;
+    left: 2%;
+    box-sizing: border-box;
+    height: 70%;
+    padding: 5%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bookman Old Style", sans-serif;
+
+}
+.planet-card div.description p{
+    font-size: 20px;
+}
+.planet-card div.description button{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.62);
+    height: 50px;
+    border-radius: 20px;
+    font-family: "Bookman Old Style", sans-serif;
+    transition: 0.5s;
+
+}
+
+.planet-card div.description button:hover{
+    cursor: pointer;
+    background-color: rgb(118, 152, 132);
+    font-size: 20px;
+    width: 45%;
+    border:5px solid rgba(207, 227, 105, 0.82);
+
+
+}
+
+.planet-card:hover div.description{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.84);
+
+
+}
+
+
+

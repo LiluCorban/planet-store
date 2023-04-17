@@ -1,0 +1,48 @@
+.planet-store{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.planet-store img.background {
+    height: 750px;
+    position: relative;
+    max-width: 100%;
+}
+.planet-store .cards-block{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.planet-store h3{
+    font-family: "Bookman Old Style", sans-serif;
+    font-size: 30px;
+    color: white;
+     position: absolute;
+    top:45%;
+    left:50%;
+    width: 50%;
+
+}
+.planet-store h4{
+    font-family: "Bookman Old Style", sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top:75%;
+    left:45%;
+
+}
+.planet-store img.arrow{
+    width: 10%;
+    position: absolute;
+    top:85%;
+    left:45%;
+
+}
+
+

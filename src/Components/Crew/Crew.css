@@ -1,0 +1,25 @@
+section.crew-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-bottom: 2px solid white;
+}
+section.crew-block div.crew-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section.crew-block div.crew-card{
+   margin-top: 7%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+section.crew-block div.crew-card img{
+    width: 100%;
+
+}

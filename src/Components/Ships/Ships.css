@@ -1,0 +1,40 @@
+
+.ships-store{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.ships-store .cards-block{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ships-store h3{
+    font-family: "Bookman Old Style", sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 40%;
+
+
+}
+.ships-store img.background{
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+.ships-store img.arrow{
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+
+}
+
+

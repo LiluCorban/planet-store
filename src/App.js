@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import Main from "./Components/Main/Main"
 import './App.css';
+import Planet from "./Components/Planet/Planet";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import {Route, Routes} from "react-router-dom";
+import Ships from "./Components/Ships/Ships";
+import Selected from "./Components/Selected/Selected";
+import News from "./Components/News/News";
+import Crew from "./Components/Crew/Crew";
 
-function App() {
+
+
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Header/>
+        {/*<NavLink to="/"><button>DISCOVER US</button> </NavLink>*/}
+      <Routes>
+        <Route path="/" element ={<Main/>}/>
+        <Route path="/planets" element ={<Planet planets={props.state.planets}/>}/>
+          <Route path="/ships" element={<Ships ships={props.state.ships}/>}/>
+          <Route path="/selected" element={<Selected select={props.state}/>}/>
+          <Route path="/news" element={<News/>}/>
+          <Route path="/crew" element={<Crew/>}/>
+      </Routes>
+      <Footer/>
     </div>
   );
 }

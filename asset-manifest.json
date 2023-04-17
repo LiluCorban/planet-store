@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/planet-store/static/css/main.62af300e.css",
+    "main.js": "/planet-store/static/js/main.56fd994e.js",
+    "static/media/background3.jpg": "/planet-store/static/media/background3.01bd541b24f2655efef6.jpg",
+    "static/media/banner2.jpg": "/planet-store/static/media/banner2.96476a01ab82a6f665aa.jpg",
+    "static/media/background2.jpg": "/planet-store/static/media/background2.25bc7574bb4df2486885.jpg",
+    "static/media/banner1.jpg": "/planet-store/static/media/banner1.f2ac10a778577c62932b.jpg",
+    "static/media/crew3.jpg": "/planet-store/static/media/crew3.897b8019dc5d60e27964.jpg",
+    "static/media/crew1.jpg": "/planet-store/static/media/crew1.36d440dea879bce6bb43.jpg",
+    "static/media/crew2.jpg": "/planet-store/static/media/crew2.26532d4339a3492aabcb.jpg",
+    "static/media/banner-news.jpg": "/planet-store/static/media/banner-news.64fb6456eec96e280006.jpg",
+    "static/media/banner31.jpg": "/planet-store/static/media/banner31.b7a9e7e81db269dfd202.jpg",
+    "static/media/ship3.svg": "/planet-store/static/media/ship3.1bebe80432dbd726d5047f005d35e385.svg",
+    "static/media/ship1.svg": "/planet-store/static/media/ship1.cda2330b9490aba1e9deacfa6b088745.svg",
+    "static/media/ship5.svg": "/planet-store/static/media/ship5.a8be0f5a5d1f7f89b2f1f63096d2f18e.svg",
+    "static/media/ship4.svg": "/planet-store/static/media/ship4.db8ec7e9af573d998f2c843e548c71bd.svg",
+    "static/media/ship2.svg": "/planet-store/static/media/ship2.29c87f181a7749d59841d46237eb550f.svg",
+    "static/media/backgroud1.jpg": "/planet-store/static/media/backgroud1.1ed3cf64d1d673356421.jpg",
+    "static/media/ship6.svg": "/planet-store/static/media/ship6.e594a76443387cdb1542d5334efb32b6.svg",
+    "static/media/planet3.svg": "/planet-store/static/media/planet3.57d489bd4019fbeeb670cff55ed00aa2.svg",
+    "static/media/planet4.svg": "/planet-store/static/media/planet4.ded170798376b94099a562067d862c8d.svg",
+    "static/media/planet6.svg": "/planet-store/static/media/planet6.f2d8beacd01fc8ce61b51c041cad2d9d.svg",
+    "static/media/planet5.svg": "/planet-store/static/media/planet5.8ba36142b45a01ac2175f83cff9134a7.svg",
+    "static/media/planet8.svg": "/planet-store/static/media/planet8.b3f72befa5b53b02fd54f302bdb7db7f.svg",
+    "static/media/planet2.svg": "/planet-store/static/media/planet2.39f7b8c6bec2c86a36c0b75649873e26.svg",
+    "static/media/planet7.svg": "/planet-store/static/media/planet7.cee1cc1f30c416552735f5a554247acc.svg",
+    "static/media/planet9.svg": "/planet-store/static/media/planet9.356156ef780a3d775e1cd915296e7d96.svg",
+    "index.html": "/planet-store/index.html",
+    "main.62af300e.css.map": "/planet-store/static/css/main.62af300e.css.map",
+    "main.56fd994e.js.map": "/planet-store/static/js/main.56fd994e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62af300e.css",
+    "static/js/main.56fd994e.js"
+  ]
+}

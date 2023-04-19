@@ -3,7 +3,7 @@ import Card from "./Card/Card"
 import background2 from "../../Assets/img/background2.jpg"
 import arrow1 from "../../Assets/img/down-arrow.png"
 const Planet = (props) => {
-    let planetItems = props.planets.map(planet => <Card planet = {planet}/>)
+    let planetItems = props.planets.map(planet => <Card showMoreHandler={props.showMoreHandler} handleAddProduct={props.handleAddProduct} planet = {planet} key = {planet.id}/>)
     return (
         <section className="planet-store">
             <img className="background" src={background2} alt="back"/>

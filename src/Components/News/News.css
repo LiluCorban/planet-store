@@ -31,7 +31,7 @@
 .news-block .card-news .card{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     font-family: 'Noto Sans', sans-serif;
     box-sizing: border-box;
     width: 20%;

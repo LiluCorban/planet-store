@@ -6,6 +6,10 @@ main{
 main .banner {
     position: relative;
     width: 100%;
+
+
+}
+main .extra {
     margin-top: -1%;
 
 }

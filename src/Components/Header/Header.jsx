@@ -26,7 +26,7 @@ const Header =() => {
            </nav>
 
             <div className="cart-block">
-             <a href="#">CART</a>
+                <NavLink to="/cart">CART</NavLink>
             </div>
 
         </header>

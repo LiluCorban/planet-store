@@ -42,10 +42,11 @@
 
 .planet-card div.description button:hover{
     cursor: pointer;
-    background-color: rgb(118, 152, 132);
+    background-color: rgba(168, 95, 238, 0.71);
     font-size: 20px;
     width: 45%;
-    border:5px solid rgba(207, 227, 105, 0.82);
+    border:thick double #00e9fd;
+    color: #00e9fd;
 
 
 }

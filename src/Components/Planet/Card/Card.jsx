@@ -1,11 +1,8 @@
 
 import "./Card.css"
-import {useNavigate} from "react-router-dom";
+
 const  Card = (props) => {
-    const navigate = useNavigate();
-    const showMoreHandler = ()=> {
-        navigate("/selected");
-}
+
     return (
         <div className="planet-card">
   <div className="visible">
@@ -15,7 +12,9 @@ const  Card = (props) => {
             <div className="description">
             <p>PRICE: from {props.planet.price}</p>
                 <p>{props.planet.predescription}</p>
-            <button onClick={showMoreHandler}>BUY</button>
+                   <button onClick={() => props.showMoreHandler(props.planet)}>SHOW MORE</button>
+
+
             </div>
        </div>
     )

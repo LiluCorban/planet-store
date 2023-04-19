@@ -12,12 +12,13 @@ const Main = () =>{
                 <h1>NEED MORE SPACE - OPEN THE SPACE</h1>
                 <NavLink to="/planets"><button>MORE SPACE</button></NavLink>
             </div>
-            <div className="banner"> <img src={banner1} alt="#"/>
+            <div className="banner">
+                <img className="extra" src={banner1} alt="#"/>
                 <h2>YOU CAN FIND YOUR DREAMSHIP HERE</h2>
                 <NavLink to="/ships"><button>SHIPS</button></NavLink>
             </div>
             <div className="banner">
-                <img src={banner2} alt="#"/>
+                <img className="extra" src={banner2} alt="#"/>
                 <h2>MAKE YOUR FIRST SPACE SELFIE</h2>
                 <NavLink to="/planets"><button>PLANETS</button></NavLink>
             </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/planet-store/static/css/main.62af300e.css",
-    "main.js": "/planet-store/static/js/main.56fd994e.js",
+    "main.css": "/planet-store/static/css/main.14ab00f1.css",
+    "main.js": "/planet-store/static/js/main.fce3af12.js",
     "static/media/background3.jpg": "/planet-store/static/media/background3.01bd541b24f2655efef6.jpg",
     "static/media/banner2.jpg": "/planet-store/static/media/banner2.96476a01ab82a6f665aa.jpg",
     "static/media/background2.jpg": "/planet-store/static/media/background2.25bc7574bb4df2486885.jpg",
@@ -27,11 +27,11 @@
     "static/media/planet7.svg": "/planet-store/static/media/planet7.cee1cc1f30c416552735f5a554247acc.svg",
     "static/media/planet9.svg": "/planet-store/static/media/planet9.356156ef780a3d775e1cd915296e7d96.svg",
     "index.html": "/planet-store/index.html",
-    "main.62af300e.css.map": "/planet-store/static/css/main.62af300e.css.map",
-    "main.56fd994e.js.map": "/planet-store/static/js/main.56fd994e.js.map"
+    "main.14ab00f1.css.map": "/planet-store/static/css/main.14ab00f1.css.map",
+    "main.fce3af12.js.map": "/planet-store/static/js/main.fce3af12.js.map"
   },
   "entrypoints": [
-    "static/css/main.62af300e.css",
-    "static/js/main.56fd994e.js"
+    "static/css/main.14ab00f1.css",
+    "static/js/main.fce3af12.js"
   ]
 }
